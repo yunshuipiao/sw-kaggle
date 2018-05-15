@@ -97,3 +97,6 @@ ENV/
 
 # mypy
 .mypy_cache/
+digit_recognizer/datasets/train.csv
+digit_recognizer/datasets/test.csv
+digit_recognizer/datasets/sample_submission.csv
