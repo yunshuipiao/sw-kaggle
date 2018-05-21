@@ -100,3 +100,7 @@ ENV/
 digit_recognizer/datasets/train.csv
 digit_recognizer/datasets/test.csv
 digit_recognizer/datasets/sample_submission.csv
+bag_of_words_meets_bags_of_popcorn/datasets/labeledTrainData.tsv
+bag_of_words_meets_bags_of_popcorn/datasets/sampleSubmission.csv
+bag_of_words_meets_bags_of_popcorn/datasets/unlabeledTrainData.tsv
+bag_of_words_meets_bags_of_popcorn/datasets/testData.tsv
