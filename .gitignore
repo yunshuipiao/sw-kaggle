@@ -105,3 +105,9 @@ bag_of_words_meets_bags_of_popcorn/datasets/sampleSubmission.csv
 bag_of_words_meets_bags_of_popcorn/datasets/unlabeledTrainData.tsv
 bag_of_words_meets_bags_of_popcorn/datasets/testData.tsv
 bag_of_words_meets_bags_of_popcorn/300features_40minwords_10context
+facial-keypoints-detection/datasets/training.zip
+facial-keypoints-detection/datasets/IdLookupTable.csv
+facial-keypoints-detection/datasets/SampleSubmission.csv
+facial-keypoints-detection/datasets/test.csv
+facial-keypoints-detection/datasets/test.zip
+facial-keypoints-detection/datasets/training.csv
