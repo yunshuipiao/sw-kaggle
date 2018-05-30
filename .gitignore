@@ -111,3 +111,7 @@ facial-keypoints-detection/datasets/SampleSubmission.csv
 facial-keypoints-detection/datasets/test.csv
 facial-keypoints-detection/datasets/test.zip
 facial-keypoints-detection/datasets/training.csv
+digit_recognizer/model/06_final.ckpt.data-00000-of-00001
+digit_recognizer/model/06_final.ckpt.index
+digit_recognizer/model/06_final.ckpt.meta
+digit_recognizer/model/checkpoint
