@@ -115,3 +115,9 @@ digit_recognizer/model/06_final.ckpt.data-00000-of-00001
 digit_recognizer/model/06_final.ckpt.index
 digit_recognizer/model/06_final.ckpt.meta
 digit_recognizer/model/checkpoint
+competitive-data-science-predict-future-sales/datasets/item_categories.csv
+competitive-data-science-predict-future-sales/datasets/items.csv
+competitive-data-science-predict-future-sales/datasets/sales_train.csv
+competitive-data-science-predict-future-sales/datasets/sample_submission.csv
+competitive-data-science-predict-future-sales/datasets/shops.csv
+competitive-data-science-predict-future-sales/datasets/test.csv
