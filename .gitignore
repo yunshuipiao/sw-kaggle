@@ -125,3 +125,6 @@ quora-question-pairs/datasets/test.csv
 quora-question-pairs/datasets/train.csv
 quora-question-pairs/datasets/sample_submission.csv
 quora-question-pairs/result.csv
+competitive-data-science-predict-future-sales/xgb_submission.csv
+competitive-data-science-predict-future-sales/lgb_submission.csv
+competitive-data-science-predict-future-sales/submission.csv
