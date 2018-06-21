@@ -131,3 +131,5 @@ competitive-data-science-predict-future-sales/submission.csv
 quora-question-pairs/lgb_result.csv
 quora-question-pairs/lgb_result2.csv
 quora-question-pairs/lgb_result3.csv
+jigsaw-toxic-comment-classification-challenge/datasets/sample_submission.csv
+*.csv
