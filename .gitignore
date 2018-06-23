@@ -132,4 +132,9 @@ quora-question-pairs/lgb_result.csv
 quora-question-pairs/lgb_result2.csv
 quora-question-pairs/lgb_result3.csv
 jigsaw-toxic-comment-classification-challenge/datasets/sample_submission.csv
-*.csv
+
+jigsaw-toxic-comment-classification-challenge/datasets/test.csv
+jigsaw-toxic-comment-classification-challenge/datasets/test_labels.csv
+jigsaw-toxic-comment-classification-challenge/datasets/train.csv
+jigsaw-toxic-comment-classification-challenge/submission.csv
+/experimental/ml/.idea/
