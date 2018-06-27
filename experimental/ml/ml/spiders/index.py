@@ -22,7 +22,6 @@ import pandas as pd
 from bs4 import BeautifulSoup
 from scrapy import signals
 
-
 class ML(scrapy.Spider, object):
     page = 1
     name = 'ml'
@@ -33,18 +32,20 @@ class ML(scrapy.Spider, object):
         'Referer': 'https://www.lagou.com/jobs/list_%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0?labelWords=&fromSearch=true',
     }
     citys = ['101010100', '101280600', '101280100', '101020100', '101210100']
-    filename = './boss/first.csv'
+    filename = './boss/second.csv'
     result_row = []
 
     def start_requests(self):
         for city in self.citys:
-            url = 'https://www.zhipin.com/c' + city + '/?query=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0'
-            request = scrapy.Request(url=url, callback=self.parse, headers=self.headers)
-            yield request
+            # url = 'https://www.zhipin.com/c' + city + '/?query=Android'  #首页
+            for page in range(1, 21):
+                url = 'https://www.zhipin.com/mobile/jobs.json?page=' + str(page) + '&city=' + city + '&query=Android'
+                request = scrapy.Request(url=url, callback=self.parse, headers=self.headers)
+                yield request
 
     def parse(self, response):
         print(response.url)
-        soup = BeautifulSoup(response.body, 'lxml')
+        soup = BeautifulSoup(json.loads(response.body)['html'], 'lxml')
         for s in soup.select('.item'):
             position = s.select_one('div > div > h4').text
             salary = s.select_one('div > div > span').text
